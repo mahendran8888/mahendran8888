@@ -7,13 +7,8 @@ import time
 from alice_blue import *
 
 def smatest():
-    breeze = BreezeConnect(api_key="83&2~83Y22K2018511yE&w60N2814B97")
-    breeze.generate_session(api_secret="a68(7S85P4u$568491O#08374w0(6m6d", session_token="1547413")
-
-    access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                        api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                        app_id='jvbqTE5sF8')
-    alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+    
+Login details here
 
     bnhistory = breeze.get_historical_data(interval="1minute", from_date="2022-08-25T07:00:00.000Z",
                                            to_date="2022-08-25T18:00:00.000Z", stock_code="CNXBAN",
