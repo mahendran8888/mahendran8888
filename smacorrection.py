@@ -9,13 +9,7 @@ def smatest():
     pd.set_option('display.max_columns', 500)
     pd.set_option('display.width', 1000)
 
-    breeze = BreezeConnect(api_key="1kA440t7401177L329z1I79H5R0J49y1")
-    breeze.generate_session(api_secret="~2211636ES2RD9462951909401o+e597", session_token="1536299")
-
-    access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                        api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                        app_id='jvbqTE5sF8')
-    alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+Login details here
 
     stock_code = "ONGC"
     ohlc = breeze.get_historical_data(interval="1minute",from_date=datetime.now().strftime('%Y-%m-%dT09:00:00.000Z'),
