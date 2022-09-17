@@ -6,8 +6,7 @@ import numpy as np
 # pd.set_option('display.max_columns', 12)
 # pd.options.display.max_columns = 12
 
-breeze = BreezeConnect(api_key="f16xtr13o33~7R5798Q92b93X8s296u5")
-breeze.generate_session(api_secret="T801035#4143N(H0iF514bX3304l492Y", session_token="1511407")
+Login here
 
 
 # bnhistory = breeze.get_historical_data(interval="1minute", from_date="2022-08-11T07:00:00.000Z",
