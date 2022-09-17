@@ -5,13 +5,7 @@ def smatest():
     import numpy as np
     from alice_blue import *
 
-    access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                        api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                        app_id='jvbqTE5sF8')
-    alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
-
-    breeze = BreezeConnect(api_key="8*r19x1L8~YkO4807R`u7H103766JBn4")
-    breeze.generate_session(api_secret="qoV%5l8L8e9&5833924d5Z469*W20PV4", session_token="1481046")
+Login details here
 
     # bnhistory = breeze.get_historical_data(interval="1minute", from_date="2022-08-08T07:00:00.000Z",
     #                                        to_date="2022-08-08T18:00:00.000Z", stock_code="CNXBAN",
