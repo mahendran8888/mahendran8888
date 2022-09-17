@@ -6,12 +6,12 @@ import datetime
 import time
 from alice_blue import *
 
-# breeze = BreezeConnect(api_key="1kA440t7401177L329z1I79H5R0J49y1")
-# breeze.generate_session(api_secret="~2211636ES2RD9462951909401o+e597", session_token="1536299")
+# breeze = BreezeConnect(api_key="")
+# breeze.generate_session(api_secret="", session_token="")
 
-access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                    api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                    app_id='jvbqTE5sF8')
+access_token = AliceBlue.login_and_get_access_token(username='', password='', twoFA='',
+                                                    api_secret='',
+                                                    app_id='')
 alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
 
 print(alice.place_order(transaction_type=TransactionType.Buy,
