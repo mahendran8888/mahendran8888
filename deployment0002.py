@@ -12,8 +12,7 @@ from nsepython import *
 
 def smatest():
     from datetime import datetime
-    breeze = BreezeConnect(api_key="6c61)R6801q66g3183I44C8934$513R0")
-    breeze.generate_session(api_secret="54=K032701*6N9Iw6P97M335F+X86w68", session_token="1553069")
+    Login details here
 
     access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
                                                         api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
