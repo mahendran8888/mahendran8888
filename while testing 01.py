@@ -8,8 +8,7 @@ from alice_blue import *
 import stoplose_takeprofit
 import xlwings as xw
 
-breeze = BreezeConnect(api_key="97t65X3194976zH99A9mg98a213t7z4Q")
-breeze.generate_session(api_secret="mG)95a03038Fs15477X5d44793i03r2Y", session_token="1582539")
+Login details here
 
 now = datetime.datetime.now()
 
