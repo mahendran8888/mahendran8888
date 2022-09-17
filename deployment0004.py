@@ -11,13 +11,7 @@ pd.set_option('display.max_columns', None)
 
 
 def smatest():
-    breeze = BreezeConnect(api_key="6C9kU52s67r789$507424(0f6t32515l")
-    breeze.generate_session(api_secret="9s362t4G99+j37q929&20800~857Es+9", session_token="1576356")
-
-    access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                        api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                        app_id='jvbqTE5sF8')
-    alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+Login details here
 
     # bnhistory = breeze.get_historical_data(interval="1minute", from_date="2022-08-25T07:00:00.000Z",
     #                                        to_date="2022-08-25T18:00:00.000Z", stock_code="CNXBAN",
