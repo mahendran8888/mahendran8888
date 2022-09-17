@@ -4,7 +4,7 @@ from alice_blue import *
 from pya3 import *
 from datetime import datetime, date, time, timedelta
 
-alice = Aliceblue(user_id='AB133347',api_key='vjXB0KDZ0fiOSOISnyY0x6ZJI3TTV0uKQbnqL3N8lTHAzyCZohZV3ohjAduLTjMP8ELfhy6ibvQX82S0vLoKGDN3iAzNJtzZSQ6s')
+Login details here
 
 print(alice.get_session_id()) # Get Session ID
 
