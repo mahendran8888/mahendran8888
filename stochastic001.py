@@ -13,8 +13,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-breeze = BreezeConnect(api_key="*U33G22B028y36J5yD4C7269W3$V*0Y1")
-breeze.generate_session(api_secret="G1V8u*91o8C618581338220604fEp7z6", session_token="1600261")
+Login details here
 
 stock = breeze.get_historical_data(interval="1minute",
                                        from_date="2022-9-2T07:00:00.000Z",
