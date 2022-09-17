@@ -1,9 +1,7 @@
 from datetime import datetime, date, time, timedelta
 from alice_blue import *
 
-access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985', api_secret='vjXB0KDZ0fiOSOISnyY0x6ZJI3TTV0uKQbnqL3N8lTHAzyCZohZV3ohjAduLTjMP8ELfhy6ibvQX82S0vLoKGDN3iAzNJtzZSQ6s',
-                                                    app_id='jvbqTE5sF8')
-alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+Login details here
 
 instrument = alice.get_instrument_by_symbol("NFO", "RELIANCE")
 from_datetime = datetime.now() - datetime.timedelta(days=7)     # From last & days
