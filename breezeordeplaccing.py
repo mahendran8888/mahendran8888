@@ -1,7 +1,6 @@
 from breeze_connect import BreezeConnect
 
-breeze = BreezeConnect(api_key="F1o2v998H#L444898z5e6ytB492480a&")
-breeze.generate_session(api_secret="J72878G2240318h0p161C49t5Z429T07", session_token="1643844")
+Login details here
 
 # # Place an order from your account.
 print(breeze.place_order(stock_code="TATSTE",
