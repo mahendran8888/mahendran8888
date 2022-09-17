@@ -3,9 +3,7 @@ from datetime import datetime,date,time,timedelta
 from nsepy import get_history
 import pandas as pd
 import numpy as np
-
-breeze = BreezeConnect(api_key="f16xtr13o33~7R5798Q92b93X8s296u5")
-breeze.generate_session(api_secret="T801035#4143N(H0iF514bX3304l492Y", session_token="1511407")
+Login details here
 bn=breeze.get_quotes(stock_code="CNXBAN",
                     exchange_code="NSE",
                     expiry_date="2022-08-05T06:00:00.000Z",
