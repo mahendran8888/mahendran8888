@@ -1,7 +1,6 @@
 from breeze_connect import BreezeConnect
 
-breeze = BreezeConnect(api_key="F1o2v998H#L444898z5e6ytB492480a&")
-breeze.generate_session(api_secret="J72878G2240318h0p161C49t5Z429T07", session_token="1645806")
+Login details here
 print(breeze.get_funds())
 
 # breeze.get_option_chain_quotes(stock_code="CNXBAN",
