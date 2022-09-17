@@ -6,9 +6,7 @@ import numpy as np
 # Allows for printing the whole data frame
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
-
-breeze = BreezeConnect(api_key="83&2~83Y22K2018511yE&w60N2814B97")
-breeze.generate_session(api_secret="a68(7S85P4u$568491O#08374w0(6m6d", session_token="1547413")
+Login details here
 
 bnce = breeze.get_historical_data(interval="1minute", from_date="2022-08-20T07:00:00.000Z",
                                        to_date="2022-08-25T18:00:00.000Z", stock_code="CNXBAN", exchange_code="NFO",
