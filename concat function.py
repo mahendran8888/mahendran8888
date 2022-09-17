@@ -3,8 +3,7 @@ from datetime import datetime,date,time,timedelta
 import pandas as pd
 import numpy as np
 
-breeze = BreezeConnect(api_key="59K1D*267O664d9593513hi79321^317")
-breeze.generate_session(api_secret="684`9343Q281v753a148Nfw079^Uk915", session_token="1500731")
+Login details here
 
 
 # bnhistory = breeze.get_historical_data(interval="1minute", from_date="2022-08-11T07:00:00.000Z",
