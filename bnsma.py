@@ -7,8 +7,7 @@ def smatest():
 
     # breezelogin.breezelogin()
     # login
-    breeze = BreezeConnect(api_key="1W8960859342@I0rg534r7K^~9P92H_0")
-    breeze.generate_session(api_secret="69498407bAQ13a90IJ3^66s35pj626Z4", session_token="1476148")
+Login details here
 
     strikeprice = 38600
 
