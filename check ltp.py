@@ -4,13 +4,7 @@ import pandas as pd
 import numpy as np
 from alice_blue import *
 
-breeze = BreezeConnect(api_key="w388658u78t85712+T22!484t0092*81")
-breeze.generate_session(api_secret="y56&ZBD2n=3219002f`78PyZI888H251", session_token="1488474")
-
-access_token = AliceBlue.login_and_get_access_token(username='AB133347', password='pragati@3', twoFA='1985',
-                                                    api_secret='bb4azbDnhxfJ7bbTKfd4gWjN8yc3IOXLykCLOfqvrdU3ixAONzyqe6dT0qh4xaeZ',
-                                                    app_id='jvbqTE5sF8')
-alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+Login details here
 
 quote = breeze.get_quotes(stock_code="ITC",
             exchange_code="NSE",
