@@ -4,8 +4,7 @@ import pandas as pd
 import numpy as np
 
 # login
-breeze = BreezeConnect(api_key="F1o2v998H#L444898z5e6ytB492480a&")
-breeze.generate_session(api_secret="J72878G2240318h0p161C49t5Z429T07", session_token="1645806")
+Login details here
 
 # get the strike price at the money
 bn = breeze.get_quotes(stock_code="CNXBAN",
