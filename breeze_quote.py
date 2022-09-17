@@ -2,8 +2,7 @@ from breeze_connect import BreezeConnect
 import pandas as pd
 import xlwings as xw
 import datetime
-breeze = BreezeConnect(api_key="6C9kU52s67r789$507424(0f6t32515l")
-breeze.generate_session(api_secret="9s362t4G99+j37q929&20800~857Es+9", session_token="1576356")
+Login details here
 
 # df = pd.read_csv("C:\\Users\\mahen\\OneDrive\\Documents\\SecurityMaster\\NSEScripMaster.csv", low_memory=False)
 # stockcode = df['ShortName'].tolist()
