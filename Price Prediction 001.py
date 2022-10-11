@@ -10,8 +10,8 @@ from sklearn.preprocessing import MinMaxScaler
 from breeze_connect import BreezeConnect
 from datetime import datetime,date,time,timedelta
 
-breeze = BreezeConnect(api_key="7Qb6d5201E6f7@W1475x15`IjP*k1578")
-breeze.generate_session(api_secret="534P4868c741K49jh51(7391ET4Ho4cm", session_token="1596317")
+breeze = BreezeConnect(api_key=
+breeze.generate_session(api_secret= session_token="1596317")
 
 apidata = breeze.get_historical_data(interval="1minute",
                                        from_date="2022-9-6T07:00:00.000Z",
