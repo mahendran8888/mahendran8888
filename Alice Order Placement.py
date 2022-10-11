@@ -12,7 +12,7 @@ from alice_blue import *
 access_token = AliceBlue.login_and_get_access_token(username='', password='', twoFA='',
                                                     api_secret='',
                                                     app_id='')
-alice = AliceBlue(username='AB133347', password='pragati@3', access_token=access_token)
+alice = AliceBlue(username='', password='', access_token=access_token)
 
 print(alice.place_order(transaction_type=TransactionType.Buy,
                       instrument=alice.get_instrument_by_symbol('NSE', "TATASTEEL"),
