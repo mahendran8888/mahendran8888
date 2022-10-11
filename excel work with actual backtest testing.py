@@ -9,8 +9,8 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-breeze = BreezeConnect(api_key="6C9kU52s67r789$507424(0f6t32515l")
-breeze.generate_session(api_secret="9s362t4G99+j37q929&20800~857Es+9", session_token="1576356")
+breeze = BreezeConnect(api_key="6
+breeze.generate_session(api_secret, session_token="
 
 
 # bnce = breeze.get_historical_data(interval="1minute", from_date="2022-08-25T09:00:00.000Z",
