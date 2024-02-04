@@ -2,15 +2,23 @@ from breeze_connect import BreezeConnect
 from datetime import datetime,date,time,timedelta
 import pandas as pd
 import numpy as np
+from credentials001 import *
+import requests
+import datetime
 import time
+from nsepython import *
+from datetime import datetime
+t1=time.time()
+requests.packages.urllib3.util.connection.HAS_IPV6 = False
+currentExpiry = nse_expirydetails(nse_optionchain_scrapper('BANKNIFTY'), 0)[0]
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-breeze = BreezeConnect(api_key="6
-breeze.generate_session(api_secret, session_token="
+breeze = BreezeConnect(api_key=api_key)
+breeze.generate_session(api_secret=api_secret, session_token=session_token)
 
 
 # bnce = breeze.get_historical_data(interval="1minute", from_date="2022-08-25T09:00:00.000Z",
@@ -50,7 +58,7 @@ trade_log = pd.DataFrame(columns='Stockcode,strike_price,call, Entry Time, Entry
 long_trade_triggered = 0
 take_profit = 0
 stop_lose = 0
-tp_percentage = 0.1
+tp_percentage = 1
 sl_percentage = 5
 for index, row in sma[1:].iterrows():
     previous_row = sma.iloc[index-1]

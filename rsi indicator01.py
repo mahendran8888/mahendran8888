@@ -3,19 +3,21 @@ from datetime import datetime,date,time,timedelta
 import pandas as pd
 import numpy as np
 import time
+from credentials001 import *
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-Login details here
+breeze = BreezeConnect(api_key=api_key)
+breeze.generate_session(api_secret=api_secret, session_token=session_token)
 
 
-bnce = breeze.get_historical_data(interval="1minute", from_date="2022-9-2T09:00:00.000Z",
-                                       to_date="2022-9-2T18:00:00.000Z", stock_code="CNXBAN", exchange_code="NFO",
-                                       product_type="options",expiry_date="2022-09-08T18:00:00.000Z",
-                                       right="call",strike_price=40500)
+bnce = breeze.get_historical_data(interval="1minute", from_date="2024-1-10T09:00:00.000Z",
+                                       to_date="2024-1-10T18:00:00.000Z", stock_code="CNXBAN", exchange_code="NFO",
+                                       product_type="options",expiry_date="2024-1-10T18:00:00.000Z",
+                                       right="call",strike_price=47000)
 # bnce = breeze.get_historical_data(interval="1minute",
 #                                        from_date="2022-9-1T07:00:00.000Z",
 #                                        to_date="2022-9-1T18:00:00.000Z",
